@@ -1,0 +1,76 @@
+* {
+    margin: 0 auto;
+  }
+  
+  .headName {
+    width: 100vw;
+    text-align: center;
+    justify-content: center;
+    background-color: black;
+  }
+  
+  .headName img {
+    height: 100px;
+  }
+  
+  .navMen button{
+    padding: 2em;
+    text-align: center;
+    width: 25vw;
+  
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: larger;
+    color: red;
+  
+    background-color: white;
+    border-style: none;
+  }
+  
+  .navMen button:hover {
+    color: white;
+    background-color: red;
+    cursor: pointer;
+  }
+
+  .body{
+    display: flex;
+  }
+  
+  .bodyIntro {
+    max-width: 1200px;
+    display: flex;
+  }
+  
+  .bodyImage img {
+    width: 400px;
+  }
+
+  .bodyText{
+    margin: 20px;
+  }
+  
+  .services {
+    display: flex;
+    justify-content: space-between;
+    justify-items: center;
+    padding-top: 40px;
+    max-width: 1200px;
+  }
+  .services img {
+    width: 15%;
+  }
+  
+  .whatProcondet {
+    padding-top: 40px;
+    padding-bottom: 40px;
+    max-width: 600px;
+    text-align: justify;
+  }
+  
+  .whyProcondet {
+    padding-top: 40px;
+    padding-bottom: 40px;
+    max-width: 600px;
+    text-align: justify;
+  }
+

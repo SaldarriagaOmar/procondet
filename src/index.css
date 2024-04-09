@@ -8,15 +8,22 @@
   background-color: #ffffff;
 }
 
-@media (prefers-color-scheme: light) {
-  :root {
-    color: #213547;
-    background-color: #ffffff;
-  }
-  a:hover {
-    color: #747bff;
-  }
-  button {
-    background-color: #f9f9f9;
-  }
+footer {
+  margin-top: 60px;
+  height: 200px;
+  display: flex;
+  width: 100vw;
+  align-content: space-between;
+  color: white;
+  background-color: black;
+  align-items: center;
+}
+
+footer img {
+  height: 100px;
+}
+
+footer li{
+  list-style: none;
+  padding: 0px;
 }

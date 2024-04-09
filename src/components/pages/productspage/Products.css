@@ -1,0 +1,32 @@
+* {
+    margin: 0 auto;
+  }
+  
+  .headName {
+    width: 100vw;
+    text-align: center;
+    justify-content: center;
+  }
+  
+  .headName img {
+    height: 100px;
+  }
+  
+  .navMen button{
+    padding: 2em;
+    text-align: center;
+    width: 25vw;
+  
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: larger;
+    color: red;
+  
+    background-color: white;
+    border-style: none;
+  }
+  
+  .navMen button:hover {
+    color: white;
+    background-color: red;
+    cursor: pointer;
+  }
